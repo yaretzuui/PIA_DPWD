@@ -1,0 +1,159 @@
+
+    <!DOCTYPE html>
+    <html lang="es">
+    
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Supermercado El Pueblo</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="icon" type="image/png" href="favicon.png">
+      <style>
+        /* CSS Styles */
+        body {
+          font-family: Arial, sans-serif;line-height: 1.6;
+          background-color: #f4f4f4;
+          margin: 0;padding: 0;
+        }
+    
+        header {
+          background: #333;color: #fff;
+          padding: 15px 0;text-align: center;}
+    
+        nav ul {
+          list-style: none;padding: 0;}
+    
+        nav ul li {
+          display: inline;margin: 0 20px; }
+    
+        nav ul li a {
+          color: #fff;text-decoration: none;
+          transition: color 0.3s ease;}
+    
+        nav ul li a:hover {
+          color: #ffa500; /* Color anaranjado al pasar el mouse */}
+    
+        main { padding: 20px;}
+    
+        section {
+          background: #fff; margin: 20px 0;
+          padding: 20px; border-radius: 8px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);}
+    
+        footer {
+          text-align: center;padding: 10px 0;
+          background: #333;color: #fff;
+          position: relative;
+          bottom: 0; width: 100%;}
+    
+        img {
+          max-width: 100%; height: auto;
+          border-radius: 8px;}
+        
+    
+        /* Estilo para la cuadrícula de productos */
+        #productos ul {
+          display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+          gap: 20px;list-style-type: none;padding: 0;}
+    
+        #productos h3 {
+          text-align: center;}
+    
+        /* Estilo para los testimonios */
+        blockquote {
+          background: #f9f9f9;border-left: 5px solid #333;
+          padding: 10px 20px;margin: 10px 0;border-radius: 5px;}
+    
+        footer p {
+          margin: 5px 0;}
+      </style>
+    </head>
+    
+    <body>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#horarios">Horarios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+          </ul>
+        </nav>
+        <h1>Supermercado El Pueblo</h1>
+        <p>La mejor opción para tus compras diarias</p>
+      </header>
+    
+      <main>
+        <section id="servicios-horarios">
+          <div id="servicios">
+            <h2>Servicios</h2>
+            <ul>
+              <li>Entrega a domicilio</li>
+              <li>Pago en línea</li>
+              <li>Atención al cliente</li>
+            </ul>
+          </div>
+          <div id="horarios">
+            <h2>Horarios</h2>
+            <p>Lunes a viernes: 9am - 7pm</p>
+            <p>Sábado: 9am - 6pm</p>
+            <p>Domingo: 10am - 6pm</p>
+          </div>
+        </section>
+    
+        <section id="contacto">
+          <h2>Contacto</h2>
+          <p>Teléfono: <strong>123456789</strong></p>
+          <p>Correo electrónico: <a href="mailto:info@supermercadoelpueblo.com">info@supermercadoelpueblo.com</a></p>
+          <p>Dirección: <strong>Calle 123, Ciudad, País</strong></p>
+        </section>
+    
+        <section id="productos">
+          <h2>Productos</h2>
+          <ul>
+            <li>
+              <h3>Frutas</h3>
+              <img src="https://s1.elespanol.com/2024/03/06/ciencia/nutricion/837926569_240496115_1706x960.jpg" alt="Frutas">
+            </li>
+            <li>
+              <h3>Verduras</h3>
+              <img src="https://estaticos-cdn.prensaiberica.es/clip/f4bf3ea4-1171-4b8c-8bbb-f0081aff8948_alta-libre-aspect-ratio_default_0.jpg" alt="Verduras">
+            </li>
+            <li>
+              <h3>Carnes</h3>
+              <img src="https://www.eatthis.com/wp-content/uploads/sites/4/2020/08/meat-section.jpg?quality=82&strip=1" alt="Carnes">
+            </li>
+            <li>
+              <h3>Lácteos</h3>
+              <img src="https://elcooperante.com/wp-content/uploads/2021/04/yogurt_corea_del_sur_savvapanfphoto.jpg.webp" alt="Lácteos">
+            </li>
+            <li>
+              <h3>Granos</h3>
+              <img src="https://thumbs.dreamstime.com/z/productos-l%C3%A1cteos-en-mercado-japon%C3%A9s-de-la-comida-126911191.jpg" alt="Granos">
+            </li>
+          </ul>
+        </section>
+    
+        <section id="testimonios">
+          <h2>Testimonios</h2>
+          <blockquote>
+            <p>"El mejor lugar para hacer mis compras. Siempre encuentro lo que necesito y los precios son muy buenos!"</p>
+            <footer>- Juan Pérez</footer>
+          </blockquote>
+          <blockquote>
+            <p>"Me encanta la calidad de los productos frescos. Además, la atención es excelente."</p>
+            <footer>- María López</footer>
+          </blockquote>
+        </section>
+      </main>
+    
+      <footer>
+        <p>&copy; 2023 Supermercado El Pueblo</p>
+        <p>Diseñado por [Tu nombre]</p>
+      </footer>
+    
+      <script src="script.js"></script>
+    </body>
+    
+    </html>
